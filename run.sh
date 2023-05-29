@@ -4,8 +4,10 @@ export MKL_NUM_THREADS=16
 export VECLIB_MAXIMUM_THREADS=16
 export NUMEXPR_NUM_THREADS=16
 
+cd /mnt/data
 git clone https://github.com/liuyulinn/objaverse.git
-cd 
+
+cd objaverse
 pip install -r requirements.txt
 
 cp /rclip3d/final/split/lvis_final.json lvis_final.json
