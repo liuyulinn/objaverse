@@ -14,6 +14,7 @@ parser.add_argument("--seed", type=int)
 parser.add_argument("--engine", type=str, default="cycles")
 parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
+parser.add_argument("--start", type=int, default=0)
 args = parser.parse_args()
 
 
@@ -33,7 +34,7 @@ for item in model_paths:
 
 print(f'total mount of objs: {len(cmds)}')
 
-for i in range(len(cmds)):
+for i in range(args.start, len(cmds)):
     print(f'rendering {i} / {len(cmds)} images!')
     ret = os.system(cmds[i])
     if ret == 2:
