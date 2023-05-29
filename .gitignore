@@ -1,0 +1,7 @@
+*.glb
+*.obj
+*.ipynb
+views*/
+*.json
+objaverse-rendering-main/
+*.zip
