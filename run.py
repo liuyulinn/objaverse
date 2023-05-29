@@ -36,9 +36,13 @@ print(f'total mount of objs: {len(cmds)}')
 
 for i in range(args.start, len(cmds)):
     print(f'rendering {i} / {len(cmds)} images!')
-    ret = os.system(cmds[i])
-    if ret == 2:
-        print("KeyboardInterrupt")
-        break
-    elif ret != 0:
-        print("Non-zero return", ret)
+    try:
+        ret = os.system(cmds[i])
+        if ret == 2:
+            print("KeyboardInterrupt")
+            break
+        elif ret != 0:
+            print("Non-zero return", ret)
+    except:
+        os.system("echo 'fail to render {i}' > /yulin/objaverse.log".format(i))
+
