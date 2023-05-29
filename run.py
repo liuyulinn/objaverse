@@ -33,8 +33,9 @@ for item in model_paths:
 
 print(f'total mount of objs: {len(cmds)}')
 
-for cmd in cmds:
-    ret = os.system(cmd)
+for i in range(len(cmds)):
+    print(f'rendering {i} / {len(cmds)} images!')
+    ret = os.system(cmds[i])
     if ret == 2:
         print("KeyboardInterrupt")
         break

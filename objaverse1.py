@@ -51,6 +51,8 @@ bproc.init()
 if args.engine == "cycles":
     #bproc.renderer.set_render_devices('GPU')
     bpy.context.scene.cycles.device = "GPU"
+    bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'CUDA'
+    bpy.context.preferences.addons["cycles"].preferences.get_devices()
     #bproc.renderer.set_denoiser("OPTIX")
     bpy.context.scene.cycles.use_denoising = True
     bpy.context.scene.cycles.filter_width = 0.01
