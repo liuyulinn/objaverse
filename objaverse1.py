@@ -49,7 +49,8 @@ bproc.init()
 
 # Renderer setting (following GET3D)
 if args.engine == "cycles":
-    bproc.renderer.set_render_devices('GPU')
+    #bproc.renderer.set_render_devices('GPU')
+    bpy.context.scene.cycles.device = "GPU"
     #bproc.renderer.set_denoiser("OPTIX")
     bpy.context.scene.cycles.use_denoising = True
     bpy.context.scene.cycles.filter_width = 0.01
