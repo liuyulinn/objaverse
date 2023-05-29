@@ -74,7 +74,9 @@ else:
 # ---------------------------------------------------------------------------- #
 if args.object_path.endswith(".glb"):
     bpy.ops.import_scene.gltf(filepath = args.object_path, merge_vertices=True)
-else:
+elif args.object_path.endwith(".fbx"):
+    bpy.ops.import_scene.fbx(filepath=args.object_path)
+elif args.object_path.endwith(".obj"):
     objs = bproc.loader.load_obj(
         args.object_path,
         use_legacy_obj_import=True,
@@ -84,6 +86,8 @@ else:
     )
     assert len(objs) == 1, len(objs)
     obj = objs[0]
+else:
+    raise ValueError(f"Unsupported file type: {args.object_path}")
     #print(obj)
 
 # NOTE(jigu): Following GET3D to split custom normals, but do not know how it affects
