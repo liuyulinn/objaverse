@@ -5,7 +5,7 @@ export VECLIB_MAXIMUM_THREADS=16
 export NUMEXPR_NUM_THREADS=16
 
 git clone https://github.com/liuyulinn/objaverse.git
-
+cd 
 pip install -r requirements.txt
 
 cp /rclip3d/final/split/lvis_final.json lvis_final.json

@@ -14,7 +14,7 @@ from mathutils import Vector
 # Arguments
 # ---------------------------------------------------------------------------- #
 parser = argparse.ArgumentParser()
-parser.add_argument("--object_path", type=str, required=True)
+parser.add_argument("--object-path", type=str, required=True)
 # parser.add_argument("--output-dir", type=str, required=True)
 parser.add_argument("--resolution", type=int, default=256)
 parser.add_argument("--scale", type=float, default=1.0)
