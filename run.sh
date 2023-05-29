@@ -4,10 +4,13 @@ export MKL_NUM_THREADS=16
 export VECLIB_MAXIMUM_THREADS=16
 export NUMEXPR_NUM_THREADS=16
 
+git clone https://github.com/liuyulinn/objaverse.git
+
 pip install -r requirements.txt
 
-cd /yulin/unlimited3d
+cp /rclip3d/final/split/lvis_final.json lvis_final.json
+ln -s /datasets-slow1/Objaverse/rawdata/hf-objaverse-v1/glbs data
 
-git clone 
-python3 distributed.py --input-models-path 
-ln -s /mnt /
+blenderproc run objaverse1.py --object_path "data/000-000/000074a334c541878360457c672b6c2e.glb"
+
+python3 distributed.py --input-models-path lvis_final.json
