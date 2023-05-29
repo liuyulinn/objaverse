@@ -4,7 +4,7 @@ import os
 import subprocess
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--input_models_path", type=str, required=True)
+parser.add_argument("--input-models-path", type=str, required=True)
 # parser.add_argument("--output-dir", type=str, required=True)
 parser.add_argument("--resolution", type=int, default=256)
 parser.add_argument("--scale", type=float, default=1.0)
@@ -30,6 +30,8 @@ for item in model_paths:
 
     command = f'blenderproc run {script_file} --object-path {path} --num-views {args.num_views} --resolution {args.resolution}'
     cmds.append(command)
+
+print(f'total mount of objs: {len(cmds)}')
 
 for cmd in cmds:
     ret = os.system(cmd)

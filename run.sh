@@ -13,4 +13,4 @@ ln -s /datasets-slow1/Objaverse/rawdata/hf-objaverse-v1/glbs data
 
 blenderproc run objaverse1.py --object_path "data/000-000/000074a334c541878360457c672b6c2e.glb"
 
-python3 distributed.py --input-models-path lvis_final.json
+python3 run.py --input_models_path lvis_final.json
