@@ -35,8 +35,8 @@ args = parser.parse_args()
 #args.object_path = "/home/yulin/data/objaverse/000074a334c541878360457c672b6c2e.obj"
 uid = args.object_path.split("/")[-1].split(".")[0]
 
-#args.output_dir = f'/yulin/objaverse/views_{uid}'
-args.output_dir = f'views_{uid}'
+args.output_dir = f'/yulin/objaverse/views_{uid}'
+#args.output_dir = f'views_{uid}'
 args.no_depth = 0
 
 

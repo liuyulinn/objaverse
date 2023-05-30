@@ -117,12 +117,12 @@ if __name__ == "__main__":
     script_file = os.path.join(os.path.dirname(__file__), "objaverse1.py")
 
     for item in model_paths:
-        # group = item["group"]
-        # uid = item["uid"]
-        # path = os.path.join('data', group, f'{uid}.glb')
+        group = item["group"]
+        uid = item["uid"]
+        path = os.path.join('data', group, f'{uid}.glb')
 
-        #command = f'blenderproc run {script_file} --object-path {path} --use_gpu 0'
-        command = f'blenderproc run {script_file} --object-path {item} --use-gpu 0'
+        command = f'blenderproc run {script_file} --object-path {path} --use-gpu 0'
+        #command = f'blenderproc run {script_file} --object-path {item} --use-gpu 0'
         cmds.append(command)
 
     cores = multiprocessing.cpu_count()
