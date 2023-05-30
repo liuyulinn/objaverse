@@ -15,6 +15,7 @@ from mathutils import Vector
 # ---------------------------------------------------------------------------- #
 parser = argparse.ArgumentParser()
 parser.add_argument("--object-path", type=str, required=True)
+parser.add_argument("--use-gpu", type=int, default = 1)
 # parser.add_argument("--output-dir", type=str, required=True)
 parser.add_argument("--resolution", type=int, default=256)
 parser.add_argument("--scale", type=float, default=1.0)
@@ -34,8 +35,8 @@ args = parser.parse_args()
 #args.object_path = "/home/yulin/data/objaverse/000074a334c541878360457c672b6c2e.obj"
 uid = args.object_path.split("/")[-1].split(".")[0]
 
-args.output_dir = f'/yulin/objaverse/views_{uid}'
-#args.output_dir = f'views_{uid}'
+#args.output_dir = f'/yulin/objaverse/views_{uid}'
+args.output_dir = f'views_{uid}'
 args.no_depth = 0
 
 
@@ -51,8 +52,23 @@ bproc.init() #compute_device = 'GPU')
 # Renderer setting (following GET3D)
 if args.engine == "cycles":
     #bproc.renderer.set_render_devices('GPU')
-    bpy.context.scene.cycles.device = "GPU"
-    bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'CUDA'
+    if args.use_gpu:
+        bpy.context.scene.cycles.device = "GPU"
+        # bproc.renderer.set_render_devices(use_only_gpu=True)
+        bpy.context.preferences.addons['cycles'].preferences.compute_device_type = 'CUDA'
+        bpy.context.preferences.addons["cycles"].preferences.get_devices()
+        for d in bpy.context.preferences.addons["cycles"].preferences.devices:
+            if d["name"] == "Intel Xeon Platinum 8255C CPU @ 2.50GHz":
+                d["use"] = 0
+            elif d["name"] == "AMD EPYC 7502 32-Core Processor":
+                d["use"] = 0
+            else:
+                d["use"] = 1
+            print(d["name"], d["use"])
+    else:
+        #bproc.python.utility.Initializer.init() #compute_device='CPU') #, compute_device_type=None, use_experimental_features=False, clean_up_scene=True)
+        bproc.renderer.set_render_devices(use_only_cpu=True)
+        bproc.renderer.set_cpu_threads(16)
     #bpy.context.preferences.addons["cycles"].preferences.get_devices()
     #bproc.renderer.set_denoiser("OPTIX")
     bpy.context.scene.cycles.use_denoising = True

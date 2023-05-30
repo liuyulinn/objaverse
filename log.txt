@@ -1,0 +1,1844 @@
+cores total: 96
+Blender 3.3.0 (hash 0759f671ce1f built 2022-09-07 00:16:43)
+/run/user/1002/gvfs/ non-existent directory
+Fra:0 Mem:19.18M (Peak 21.68M) | Time:00:00.01 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Object_2
+Fra:0 Mem:20.87M (Peak 24.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:0 Mem:20.87M (Peak 24.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Image_3
+Fra:0 Mem:20.87M (Peak 24.07M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Image_2
+Fra:0 Mem:27.88M (Peak 27.88M) | Time:00:00.05 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Images | Loading Image_0
+Fra:0 Mem:36.88M (Peak 68.91M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Waiting for render to start
+Fra:0 Mem:36.88M (Peak 68.91M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:0 Mem:36.88M (Peak 68.91M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Scene
+Fra:0 Mem:36.88M (Peak 68.91M) | Time:00:00.11 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Shaders
+Fra:0 Mem:37.38M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Procedurals
+Fra:0 Mem:37.38M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Background
+Fra:0 Mem:37.38M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Camera
+Fra:0 Mem:37.38M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes Flags
+Fra:0 Mem:37.38M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects
+Fra:0 Mem:37.38M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:0 Mem:37.38M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:0 Mem:37.38M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems
+Fra:0 Mem:37.38M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:0 Mem:37.38M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Meshes
+Fra:0 Mem:37.61M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:0 Mem:38.63M (Peak 68.91M) | Time:00:00.12 | Mem:16.00M, Peak:16.00M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:0 Mem:38.63M (Peak 68.91M) | Time:00:00.12 | Mem:17.02M, Peak:17.02M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:0 Mem:38.63M (Peak 68.91M) | Time:00:00.12 | Mem:17.02M, Peak:17.02M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:0 Mem:38.63M (Peak 68.91M) | Time:00:00.12 | Mem:17.79M, Peak:17.79M | Scene, ViewLayer | Updating Scene BVH | Building BVH 0%
+Fra:0 Mem:38.63M (Peak 68.91M) | Time:00:00.12 | Mem:18.24M, Peak:18.74M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:0 Mem:38.63M (Peak 68.91M) | Time:00:00.12 | Mem:18.24M, Peak:18.74M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:0 Mem:39.64M (Peak 68.91M) | Time:00:00.12 | Mem:18.24M, Peak:18.74M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:0 Mem:39.64M (Peak 68.91M) | Time:00:00.12 | Mem:19.25M, Peak:19.25M | Scene, ViewLayer | Updating Objects Flags
+Fra:0 Mem:39.64M (Peak 68.91M) | Time:00:00.12 | Mem:19.25M, Peak:19.25M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:0 Mem:39.64M (Peak 68.91M) | Time:00:00.12 | Mem:19.25M, Peak:19.25M | Scene, ViewLayer | Updating Images
+Fra:0 Mem:35.64M (Peak 68.91M) | Time:00:00.13 | Mem:15.25M, Peak:19.25M | Scene, ViewLayer | Updating Camera Volume
+Fra:0 Mem:35.64M (Peak 68.91M) | Time:00:00.13 | Mem:15.25M, Peak:19.25M | Scene, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:35.64M (Peak 68.91M) | Time:00:00.13 | Mem:15.50M, Peak:19.25M | Scene, ViewLayer | Updating Lights
+Fra:0 Mem:35.64M (Peak 68.91M) | Time:00:00.13 | Mem:15.50M, Peak:19.25M | Scene, ViewLayer | Updating Lights | Computing distribution
+Fra:0 Mem:35.64M (Peak 68.91M) | Time:00:00.13 | Mem:15.50M, Peak:19.25M | Scene, ViewLayer | Updating Integrator
+Fra:0 Mem:35.65M (Peak 68.91M) | Time:00:00.13 | Mem:15.51M, Peak:19.25M | Scene, ViewLayer | Updating Film
+Fra:0 Mem:35.66M (Peak 68.91M) | Time:00:00.13 | Mem:15.26M, Peak:19.25M | Scene, ViewLayer | Updating Lookup Tables
+Fra:0 Mem:35.66M (Peak 68.91M) | Time:00:00.13 | Mem:15.51M, Peak:19.25M | Scene, ViewLayer | Updating Baking
+Fra:0 Mem:35.66M (Peak 68.91M) | Time:00:00.13 | Mem:15.51M, Peak:19.25M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:0 Mem:35.66M (Peak 68.91M) | Time:00:00.13 | Mem:15.51M, Peak:19.25M | Scene, ViewLayer | Sample 0/32
+Fra:0 Mem:39.70M (Peak 68.91M) | Time:00:00.13 | Remaining:00:00.11 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:0 Mem:42.45M (Peak 68.91M) | Time:00:00.17 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:0 Mem:42.45M (Peak 68.91M) | Time:00:00.17 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:0 Mem:42.46M (Peak 68.91M) | Time:00:00.17 | Compositing
+Fra:0 Mem:42.46M (Peak 68.91M) | Time:00:00.17 | Compositing | Determining resolution
+Fra:0 Mem:42.46M (Peak 68.91M) | Time:00:00.17 | Compositing | Initializing execution
+Fra:0 Mem:53.28M (Peak 68.91M) | Time:00:00.26 | Compositing | Tile 1-1
+Fra:0 Mem:53.28M (Peak 68.91M) | Time:00:00.26 | Compositing | Tile 1-1
+Fra:0 Mem:53.28M (Peak 68.91M) | Time:00:00.28 | Compositing | Tile 1-1
+Fra:0 Mem:53.21M (Peak 68.91M) | Time:00:00.28 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0000.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0000.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0000.png'
+ Time: 00:00.52 (Saving: 00:00.23)
+
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:1 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:1 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:1 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:1 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:1 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:1 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:1 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:1 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:1 Mem:53.28M (Peak 68.91M) | Time:00:00.13 | Compositing | Tile 1-1
+Fra:1 Mem:53.21M (Peak 68.91M) | Time:00:00.13 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0001.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0001.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0001.png'
+ Time: 00:00.15 (Saving: 00:00.00)
+
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:2 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:2 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:2 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:2 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:2 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:2 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:2 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:2 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:2 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:2 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0002.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0002.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0002.png'
+ Time: 00:00.14 (Saving: 00:00.00)
+
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:3 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:3 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:3 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:3 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:3 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:3 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:3 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:3 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:3 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:3 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0003.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0003.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0003.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:4 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:4 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:4 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:4 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:4 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:4 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:4 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:4 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:4 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:4 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0004.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0004.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0004.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:5 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:5 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:5 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:5 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:5 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:5 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:5 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:5 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:5 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:5 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0005.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0005.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0005.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:6 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:6 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:6 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:6 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:6 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:6 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:6 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:6 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:6 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:6 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0006.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0006.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0006.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:7 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:7 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:7 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:7 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:7 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:7 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:7 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:7 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:7 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:7 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0007.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0007.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0007.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:8 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:8 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:8 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:8 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:8 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:8 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:8 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:8 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:8 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:8 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0008.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0008.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0008.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:9 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:9 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:9 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:9 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:9 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:9 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:9 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:9 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:9 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:9 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0009.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0009.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0009.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:10 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:10 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:10 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:10 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:10 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:10 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:10 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:10 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:10 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:10 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0010.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0010.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0010.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:11 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:11 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:11 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:11 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:11 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:11 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:11 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:11 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:11 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:11 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0011.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0011.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0011.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:12 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:12 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:12 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:12 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:12 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:12 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:12 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:12 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:12 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:12 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0012.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0012.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0012.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:13 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:13 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:13 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:13 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:13 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:13 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:13 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:13 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:13 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:13 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0013.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0013.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0013.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:14 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:14 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:14 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:14 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:14 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:14 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:14 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:14 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:14 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:14 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0014.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0014.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0014.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:15 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:15 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:15 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:15 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:15 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:15 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:15 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:15 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:15 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:15 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0015.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0015.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0015.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:16 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:16 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:16 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:16 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:16 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:16 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:16 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:16 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:16 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:16 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0016.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0016.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0016.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:17 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:17 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:17 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:17 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:17 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:17 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:17 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:17 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:17 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:17 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0017.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0017.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0017.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:18 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:18 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:18 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:18 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:18 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:18 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:18 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:18 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:18 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:18 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0018.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0018.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0018.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:19 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:19 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:19 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:19 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:19 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:19 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:19 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:19 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:19 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:19 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0019.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0019.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0019.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:20 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:20 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:20 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:20 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:20 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:20 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:20 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:20 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:20 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:20 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0020.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0020.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0020.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:21 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:21 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:21 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:21 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:21 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:21 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:21 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:21 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:21 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:21 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0021.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0021.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0021.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:22 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:22 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:22 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:22 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:22 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:22 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:22 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:22 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:22 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:22 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0022.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0022.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0022.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:23 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:23 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:23 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:23 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:23 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:23 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:23 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:23 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:23 Mem:53.28M (Peak 68.91M) | Time:00:00.13 | Compositing | Tile 1-1
+Fra:23 Mem:53.21M (Peak 68.91M) | Time:00:00.13 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0023.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0023.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0023.png'
+ Time: 00:00.14 (Saving: 00:00.00)
+
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:24 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:24 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:24 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:24 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:24 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:24 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:24 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:24 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:24 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:24 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0024.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0024.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0024.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:25 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:25 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:25 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:25 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:25 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:25 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:25 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:25 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:25 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:25 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0025.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0025.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0025.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:26 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:26 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:26 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:26 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:26 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:26 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:26 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:26 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:26 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:26 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0026.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0026.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0026.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:27 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:27 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:27 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:27 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:27 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:27 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:27 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:27 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:27 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:27 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0027.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0027.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0027.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:28 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:28 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:28 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:28 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:28 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:28 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:28 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:28 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:28 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:28 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0028.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0028.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0028.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:29 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:29 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:29 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:29 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:29 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:29 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:29 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:29 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:29 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:29 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0029.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0029.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0029.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:30 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:30 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:30 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:30 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:30 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:30 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:30 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:30 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:30 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:30 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0030.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0030.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0030.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:31 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:31 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:31 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:31 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:31 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:31 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:31 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:31 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:31 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:31 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0031.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0031.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0031.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:32 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:32 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:32 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:32 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:32 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:32 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:32 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:32 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:32 Mem:53.28M (Peak 68.91M) | Time:00:00.13 | Compositing | Tile 1-1
+Fra:32 Mem:53.21M (Peak 68.91M) | Time:00:00.13 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0032.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0032.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0032.png'
+ Time: 00:00.14 (Saving: 00:00.00)
+
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:33 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:33 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:33 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:33 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:33 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:33 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:33 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:33 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:33 Mem:53.28M (Peak 68.91M) | Time:00:00.13 | Compositing | Tile 1-1
+Fra:33 Mem:53.21M (Peak 68.91M) | Time:00:00.13 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0033.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0033.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0033.png'
+ Time: 00:00.14 (Saving: 00:00.00)
+
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:34 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:34 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:34 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:34 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:34 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:34 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:34 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:34 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:34 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:34 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0034.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0034.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0034.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:35 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:35 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:35 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:35 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:35 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:35 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:35 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:35 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:35 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:35 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0035.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0035.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0035.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:36 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:36 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:36 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:36 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:36 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:36 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:36 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:36 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:36 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:36 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0036.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0036.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0036.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:37 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:37 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:37 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:37 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:37 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:37 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:37 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:37 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:37 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:37 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0037.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0037.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0037.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:38 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.07 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:38 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:38 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:38 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:38 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:38 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:38 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:38 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:38 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:38 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0038.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0038.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0038.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:39 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:39 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:39 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:39 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:39 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:39 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:39 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:39 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:39 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:39 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0039.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0039.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0039.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:40 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:40 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:40 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:40 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:40 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:40 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:40 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:40 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:40 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:40 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0040.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0040.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0040.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:41 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:41 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:41 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:41 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:41 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:41 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:41 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:41 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:41 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:41 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0041.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0041.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0041.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:42 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:42 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:42 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:42 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:42 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:42 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:42 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:42 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:42 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:42 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0042.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0042.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0042.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:43 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:43 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:43 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:43 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:43 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:43 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:43 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:43 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:43 Mem:53.28M (Peak 68.91M) | Time:00:00.13 | Compositing | Tile 1-1
+Fra:43 Mem:53.21M (Peak 68.91M) | Time:00:00.13 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0043.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0043.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0043.png'
+ Time: 00:00.14 (Saving: 00:00.00)
+
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:44 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:44 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:44 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:44 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:44 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:44 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:44 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:44 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:44 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:44 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0044.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0044.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0044.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:45 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:45 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:45 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:45 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:45 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:45 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:45 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:45 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:45 Mem:53.28M (Peak 68.91M) | Time:00:00.13 | Compositing | Tile 1-1
+Fra:45 Mem:53.21M (Peak 68.91M) | Time:00:00.13 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0045.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0045.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0045.png'
+ Time: 00:00.14 (Saving: 00:00.00)
+
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:46 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:46 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:46 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:46 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:46 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:46 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:46 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:46 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:46 Mem:53.28M (Peak 68.91M) | Time:00:00.12 | Compositing | Tile 1-1
+Fra:46 Mem:53.21M (Peak 68.91M) | Time:00:00.12 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0046.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0046.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0046.png'
+ Time: 00:00.13 (Saving: 00:00.00)
+
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:47 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:47 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:47 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:47 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing
+Fra:47 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Determining resolution
+Fra:47 Mem:42.46M (Peak 68.91M) | Time:00:00.03 | Compositing | Initializing execution
+Fra:47 Mem:53.28M (Peak 68.91M) | Time:00:00.09 | Compositing | Tile 1-1
+Fra:47 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:47 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:47 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0047.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0047.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0047.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:48 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.05 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:48 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:48 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:48 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:48 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:48 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:48 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:48 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:48 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:48 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0048.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0048.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0048.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Initializing
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Waiting for render to start
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Scene
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Shaders
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Background
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Particle Systems
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Meshes
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Objects Flags
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Images
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Camera Volume
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lights
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Integrator
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Film
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Lookup Tables
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Baking
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 0/32
+Fra:49 Mem:39.71M (Peak 68.91M) | Time:00:00.00 | Remaining:00:00.06 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 1/32
+Fra:49 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Sample 32/32
+Fra:49 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Mem:19.53M, Peak:19.53M | Scene, ViewLayer | Finished
+Fra:49 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing
+Fra:49 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Determining resolution
+Fra:49 Mem:42.46M (Peak 68.91M) | Time:00:00.04 | Compositing | Initializing execution
+Fra:49 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:49 Mem:53.28M (Peak 68.91M) | Time:00:00.10 | Compositing | Tile 1-1
+Fra:49 Mem:53.28M (Peak 68.91M) | Time:00:00.11 | Compositing | Tile 1-1
+Fra:49 Mem:53.21M (Peak 68.91M) | Time:00:00.11 | Compositing | De-initializing execution
+Saved: views_000074a334c541878360457c672b6c2e/depth_0049.exr
+Saved: views_000074a334c541878360457c672b6c2e/normals_0049.exr
+Saved: 'views_000074a334c541878360457c672b6c2e/rgb_0049.png'
+ Time: 00:00.12 (Saving: 00:00.00)
+
+Selecting render devices...
+Device NVIDIA GeForce RTX 3090 of type OPTIX found and used.
+Device NVIDIA GeForce RTX 3090 of type OPTIX found and used.
+Device NVIDIA GeForce RTX 3090 of type OPTIX found and used.
+Device NVIDIA GeForce RTX 3090 of type OPTIX found and used.
+Device NVIDIA GeForce RTX 3090 of type OPTIX found and used.
+Device NVIDIA GeForce RTX 3090 of type OPTIX found and used.
+Device NVIDIA GeForce RTX 3090 of type OPTIX found and used.
+Device NVIDIA GeForce RTX 3090 of type OPTIX found and used.
+Device Intel Xeon Platinum 8255C CPU @ 2.50GHz of type CPU found and used.
+Selecting render devices...
+Using only the CPU for rendering
+Data are loaded, start creating Blender stuff
+glTF import finished in 0.06s
+2.849099975226992 0.46250068364064206
+
+Blender quit
+Warning: Changed install path from /home_local/yulin... to /home/yulin..., there is no /home_local/ on this machine.
+Using blender in /home/yulin/blender/blender-3.3.0-linux-x64
+Using temporary directory: /dev/shm/blender_proc_b467ef8bee574aeeb078a7885cd8ebc4
+Cleaning temporary directory
+rendering 1/46205 images name is blenderproc run objaverse1.py --object-path /home/yulin/data/objaverse/000074a334c541878360457c672b6c2e.glb --use-gpu 0

@@ -54,7 +54,7 @@ def worker(
         #     f" --object_path {item}"
         # )
         command = (
-            f"export DISPLAY=:0.{gpu} &&"
+            #f"export DISPLAY=:0.{gpu} &&"
             f" blenderproc run objaverse1.py --"
             f" --object_path {path}"
         )
