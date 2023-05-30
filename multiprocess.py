@@ -34,6 +34,9 @@ class Args:
     start: int = 0
     '''continue to render images'''
 
+    end: int = 0
+    '''continue to render images'''
+
 
 # def worker(
 #     queue: multiprocessing.JoinableQueue,
@@ -131,7 +134,9 @@ if __name__ == "__main__":
     pool_list = []
     #result_list = []
 
-    for i in range(args.start, len(cmds)):
+    if args.end == 0:
+        args.end = len(cmds)
+    for i in range(args.start, args.end):
         pool_list.append(pool.apply_async(worker, (i, cmds[i])))
     # args = tyro.cli(Args)
 
