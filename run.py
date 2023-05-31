@@ -43,7 +43,6 @@ print(f'total mount of objs: {len(cmds)}')
 if args.end == 0:
     args.end = len(cmds)
 for i in range(args.start, args.end):
-    os.system(f'echo rendering {i} / {len(cmds)}')
     #print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
     if os.path.exists(f'/yulin/objaverse/views_{uids[i]}'):
         os.system(f'echo already rendered {i} / {len(cmds)}')
@@ -55,8 +54,9 @@ for i in range(args.start, args.end):
         if ret == 2:
             print("KeyboardInterrupt")
             break
-        elif ret != 0:
-            print("Non-zero return", ret)
+        # elif ret != 0:
+        #     print("Non-zero return", ret)
+        os.system(f'echo rendering {i} / {len(cmds)} >> /yulin/loglog.tx')
     except: 
         info=sys.exc_info() 
         print(info[0],":",info[1] )
