@@ -43,7 +43,7 @@ if args.end == 0:
     args.end = len(cmds)
 for i in range(args.start, args.end):
     print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
-    if os.path.exist(f'/yulin/objaverse/views_{uids[i]}'):
+    if os.path.exists(f'/yulin/objaverse/views_{uids[i]}'):
         continue
 
     try:
