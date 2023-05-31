@@ -16,6 +16,7 @@ parser.add_argument("--engine", type=str, default="cycles")
 parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
 parser.add_argument("--start", type=int, default=0)
+parser.add_argument("--end", type=int, default=0)
 args = parser.parse_args()
 
 
@@ -38,7 +39,9 @@ for item in model_paths:
 
 print(f'total mount of objs: {len(cmds)}')
 
-for i in range(args.start, len(cmds)):
+if args.end == 0:
+    args.end = len(cmds)
+for i in range(args.start, args.end):
     print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
     if os.path.exist(f'/yulin/objaverse/views_{uids[i]}'):
         continue
