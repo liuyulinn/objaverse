@@ -56,7 +56,7 @@ for i in range(args.start, args.end):
             break
         # elif ret != 0:
         #     print("Non-zero return", ret)
-        os.system(f'echo rendering {i} / {len(cmds)} >> /yulin/loglog.tx')
+        os.system(f'echo rendering {i} / {len(cmds)} {uids[i]} >> /yulin/loglog.tx')
     except: 
         info=sys.exc_info() 
         print(info[0],":",info[1] )
