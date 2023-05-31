@@ -35,6 +35,7 @@ for item in model_paths:
 
     command = f'blenderproc run {script_file} --object-path {path} --num-views {args.num_views} --resolution {args.resolution}'
     cmds.append(command)
+    #cmds.append(item)
     uids.append(uid)
 
 print(f'total mount of objs: {len(cmds)}')
@@ -42,8 +43,11 @@ print(f'total mount of objs: {len(cmds)}')
 if args.end == 0:
     args.end = len(cmds)
 for i in range(args.start, args.end):
-    print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
+    os.system(f'echo rendering {i} / {len(cmds)}')
+    #print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
     if os.path.exists(f'/yulin/objaverse/views_{uids[i]}'):
+        os.system(f'echo already rendered {i} / {len(cmds)}')
+        os.system(f'echo fail to render {i} >> /yulin/log_already.txt')
         continue
 
     try:

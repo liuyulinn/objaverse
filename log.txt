@@ -1842,3 +1842,4 @@ Using blender in /home/yulin/blender/blender-3.3.0-linux-x64
 Using temporary directory: /dev/shm/blender_proc_b467ef8bee574aeeb078a7885cd8ebc4
 Cleaning temporary directory
 rendering 1/46205 images name is blenderproc run objaverse1.py --object-path /home/yulin/data/objaverse/000074a334c541878360457c672b6c2e.glb --use-gpu 0
+rendering 0 / 2
