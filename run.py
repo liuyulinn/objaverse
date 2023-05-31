@@ -40,7 +40,7 @@ print(f'total mount of objs: {len(cmds)}')
 
 for i in range(args.start, len(cmds)):
     print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
-    if os.exist(f'/yulin/objaverse/views_{uids[i]}'):
+    if os.path.exist(f'/yulin/objaverse/views_{uids[i]}'):
         continue
 
     try:
