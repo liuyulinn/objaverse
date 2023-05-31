@@ -1,6 +1,7 @@
 import json
 import argparse
 import os
+import sys
 import subprocess
 
 parser = argparse.ArgumentParser()
@@ -20,8 +21,10 @@ args = parser.parse_args()
 
 with open(args.input_models_path, "r") as f:
     model_paths = json.load(f)
+    #model_paths.sort()
 
 cmds = []
+uids = []
 script_file = os.path.join(os.path.dirname(__file__), "objaverse1.py")
 
 for item in model_paths:
@@ -31,11 +34,15 @@ for item in model_paths:
 
     command = f'blenderproc run {script_file} --object-path {path} --num-views {args.num_views} --resolution {args.resolution}'
     cmds.append(command)
+    uids.append(uid)
 
 print(f'total mount of objs: {len(cmds)}')
 
 for i in range(args.start, len(cmds)):
-    print(f'rendering {i} / {len(cmds)} images!')
+    print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
+    if os.exist(f'/yulin/objaverse/views_{uids[i]}'):
+        continue
+
     try:
         ret = os.system(cmds[i])
         if ret == 2:
@@ -43,6 +50,9 @@ for i in range(args.start, len(cmds)):
             break
         elif ret != 0:
             print("Non-zero return", ret)
-    except:
+    except: 
+        info=sys.exc_info() 
+        print(info[0],":",info[1] )
+
         os.system("echo 'fail to render {i}' > /yulin/objaverse.log".format(i))
 

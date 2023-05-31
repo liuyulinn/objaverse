@@ -47,7 +47,7 @@ def get_intrinsic_matrix(width, height, fov, degree=False):
     K = np.array([[f, 0, xc], [0, f, yc], [0, 0, 1.0]])
     return K
 
-root_dir = Path("/home/yulin/data/objaverse/views_fox")
+root_dir = Path("/home/yulin/data/objaverse/views_005c71d003e24a588bc203d578de416c")
 
 with open(root_dir / "meta.json") as f:
     meta = json.load(f)
