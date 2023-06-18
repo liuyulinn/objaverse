@@ -19,7 +19,7 @@ parser.add_argument("--use-gpu", type=int, default = 1)
 # parser.add_argument("--output-dir", type=str, required=True)
 parser.add_argument("--resolution", type=int, default=256)
 parser.add_argument("--scale", type=float, default=1.0)
-parser.add_argument("--radius", type=float, default=1.2)
+parser.add_argument("--radius", type=float, default=1.0)
 parser.add_argument("--num-views", type=int, default=50)
 parser.add_argument("--seed", type=int)
 parser.add_argument("--engine", type=str, default="cycles")
@@ -30,13 +30,13 @@ args = parser.parse_args()
 #args.object_path = "/home/yulin/data/objaverse/005c71d003e24a588bc203d578de416c.glb"
 
 #args.object_path = "/home/yulin/data/objaverse/000074a334c541878360457c672b6c2e.glb"
-#args.object_path = "/home/yulin/data/ob javerse/model_normalized.obj"
-# args.object_path = "origin.obj"
+#args.object_path = "/home/yulin/data/objaverse/model_normalized.obj"
+#args.object_path = "origin.obj"
 #args.object_path = "/home/yulin/data/objaverse/000074a334c541878360457c672b6c2e.obj"
 uid = args.object_path.split("/")[-1].split(".")[0]
 
-args.output_dir = f'/objaverse-processed/rendered_ortho/views_{uid}'
-# args.output_dir = f'views_{uid}'
+# args.output_dir = f'/objaverse-processed/rendered_ortho/views_{uid}'
+args.output_dir = f'views_{uid}'
 args.no_depth = 0
 
 
@@ -179,70 +179,66 @@ fovy = np.arctan(32 / 2 / 35) * 2
 bproc.camera.set_intrinsics_from_blender_params(fovy, lens_unit="FOV")
 bproc.camera.set_resolution(args.resolution, args.resolution)
 
-# Compute current axis-aligned bounding box
-# aabb = [[-args.scale / 2] * 3, [args.scale / 2] * 3]
-# bbox_8x3 = obj.get_bound_box()
-# # print(bbox_8x3)
-# aabb = [np.min(bbox_8x3, 0).tolist(), np.max(bbox_8x3, 0).tolist()]
-bbox_min, bbox_max = scene_bbox()
-aabb = [np.array(bbox_min).tolist(), np.array(bbox_max).tolist()]
+# # Compute current axis-aligned bounding box
+# # aabb = [[-args.scale / 2] * 3, [args.scale / 2] * 3]
+# # bbox_8x3 = obj.get_bound_box()
+# # # print(bbox_8x3)
+# # aabb = [np.min(bbox_8x3, 0).tolist(), np.max(bbox_8x3, 0).tolist()]
+# bbox_min, bbox_max = scene_bbox()
+# aabb = [np.array(bbox_min).tolist(), np.array(bbox_max).tolist()]
 
-meta = {"fovy": fovy,  "aabb": aabb}
-frames = []
-azimuths = []
-elevations = []
+# meta = {"fovy": fovy,  "aabb": aabb}
+# frames = []
+# azimuths = []
+# elevations = []
 
-# Sample camera pose
-poi = np.zeros(3)
+# # Sample camera pose
+# poi = np.zeros(3)
+# for i in range(args.num_views):
+#     # Sample random camera location above objects
+#     azimuth = np.random.uniform(0, 2 * np.pi)
+#     elevation = np.arccos(np.random.uniform(-1, 1))
 
-for i in range(args.num_views):
-    # Sample random camera location above objects
-    azimuth = np.random.uniform(0, 2 * np.pi)
-    elevation = np.arccos(np.random.uniform(-1, 1))
+#     x = np.cos(azimuth) * np.sin(elevation)
+#     y = np.sin(azimuth) * np.sin(elevation)
+#     z = np.cos(elevation)
+#     location = np.array([x, y, z]) * args.radius
 
-    x = np.cos(azimuth) * np.sin(elevation)
-    y = np.sin(azimuth) * np.sin(elevation)
-    z = np.cos(elevation)
-    location = np.array([x, y, z]) * args.radius
+#     # Compute rotation based on vector going from location towards poi
+#     rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
 
-    # Compute rotation based on vector going from location towards poi
-    rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
+#     # Add homogeneous cam pose based on location an rotation
+#     cam2world_matrix = bproc.math.build_transformation_mat(location, rotation_matrix)
+#     bproc.camera.add_camera_pose(cam2world_matrix, frame=i)
 
-    # Add homogeneous cam pose based on location an rotation
-    cam2world_matrix = bproc.math.build_transformation_mat(location, rotation_matrix)
-    bproc.camera.add_camera_pose(cam2world_matrix, frame=i)
+#     # NOTE(jigu): blenderproc save {%04d}.png.
+#     frame = dict(
+#         transform_matrix=cam2world_matrix.tolist(),
+#         azimuth=azimuth,
+#         elevation=elevation,
+#     )
+#     frames.append(frame)
 
-    # NOTE(jigu): blenderproc save {%04d}.png.
-    frame = dict(
-        transform_matrix=cam2world_matrix.tolist(),
-        azimuth=azimuth,
-        elevation=elevation,
-    )
-    frames.append(frame)
+#     azimuths.append(azimuth)
+#     elevations.append(elevation)
 
-    azimuths.append(azimuth)
-    elevations.append(elevation)
+# elevations = np.array(elevations)
+# print(elevations.max(), elevations.min())
 
-elevations = np.array(elevations)
-print(elevations.max(), elevations.min())
+# if not args.no_depth:
+#     bproc.renderer.enable_depth_output(False, output_dir=str(output_dir))
 
-if not args.no_depth:
-    bproc.renderer.enable_depth_output(False, output_dir=str(output_dir))
+# bproc.renderer.enable_normals_output(output_dir=str(output_dir))
+# # Render RGB images
+# data = bproc.renderer.render(output_dir=str(output_dir), return_data=False)
 
-bproc.renderer.enable_normals_output(output_dir=str(output_dir))
-# Render RGB images
-data = bproc.renderer.render(output_dir=str(output_dir), return_data=False)
 
-# Save meta info
-meta["frames"] = frames
-with open(output_dir / "meta.json", "w") as f:
-    json.dump(meta, f, indent=4)
 
 
 # # -------------------------------------------------------------------------- #
 # # Render orthographic views
 # # -------------------------------------------------------------------------- #
-bproc.utility.reset_keyframes()
+# bproc.utility.reset_keyframes()
 
 cam_ob = bpy.context.scene.camera
 cam_ob.data.type = "ORTHO"
@@ -258,6 +254,14 @@ locations = [
     [0, 0, -1],
 ]
 
+bbox_min, bbox_max = scene_bbox()
+aabb = [np.array(bbox_min).tolist(), np.array(bbox_max).tolist()]
+
+
+
+meta = {"fovy": fovy,  "aabb": aabb}
+frames = []
+
 for i, location in enumerate(locations):
     # Compute rotation based on vector going from location towards poi
     rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
@@ -266,10 +270,31 @@ for i, location in enumerate(locations):
     cam2world_matrix = bproc.math.build_transformation_mat(location, rotation_matrix)
     bproc.camera.add_camera_pose(cam2world_matrix, frame=i)
 
-bproc.renderer.render(
-    output_dir=str(output_dir),
-    file_prefix="ortho_",
-    return_data=False,
-    load_keys={"colors"},
-    output_key=None,
-)
+    frame = dict(
+        transform_matrix = cam2world_matrix.tolist(),
+        # azimuth = azimuth,
+        # elevation = elevation,
+    )
+
+    frames.append(frame)
+
+if not args.no_depth:
+    bproc.renderer.enable_depth_output(False, output_dir=str(output_dir))
+
+bproc.renderer.enable_normals_output(output_dir=str(output_dir))
+# Render RGB images
+data = bproc.renderer.render(output_dir=str(output_dir), return_data=False)
+
+
+# bproc.renderer.render(
+#     output_dir=str(output_dir),
+#     file_prefix="ortho_",
+#     return_data=False,
+#     load_keys={"colors"},
+#     output_key=None,
+# )
+
+# Save meta info
+meta["frames"] = frames
+with open(output_dir / "meta.json", "w") as f:
+    json.dump(meta, f, indent=4)
