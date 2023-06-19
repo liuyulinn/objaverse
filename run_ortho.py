@@ -46,7 +46,7 @@ for i in range(args.start, args.end):
     #print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
     if os.path.exists(f'/objaverse-processed/rendered_ortho/views_{uids[i]}'):
         os.system(f'echo already rendered {i} / {len(cmds)}')
-        os.system(f'echo fail to render {i} >> /yulin/log_already.txt')
+        os.system(f'echo fail to render {i} ') #>> /yulin/log_already.txt')
         continue
 
     try:
@@ -56,7 +56,7 @@ for i in range(args.start, args.end):
             break
         # elif ret != 0:
         #     print("Non-zero return", ret)
-        os.system(f'echo rendering {i} / {len(cmds)} {uids[i]} >> /yulin/loglog.tx')
+        os.system(f'echo rendering {i} / {len(cmds)} {uids[i]} ') #>> /yulin/loglog.tx')
     except: 
         info=sys.exc_info() 
         print(info[0],":",info[1] )
