@@ -142,7 +142,7 @@ def scene_bbox(single_obj=None, ignore_matrix=False):
 bbox_min, bbox_max = scene_bbox()
 scale = 1 / max(bbox_max - bbox_min)
 for obj in scene_root_objects():
-    obj.scale = obj.scale * scale * 0.9
+    obj.scale = obj.scale * scale * 0.8
 # Apply scale to matrix_world.
 bpy.context.view_layer.update()
 bbox_min, bbox_max = scene_bbox()
