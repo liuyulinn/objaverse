@@ -18,7 +18,7 @@ parser.add_argument("--object-path", type=str, required=True)
 parser.add_argument("--use-gpu", type=int, default = 1)
 # parser.add_argument("--output-dir", type=str, required=True)
 parser.add_argument("--resolution", type=int, default=256)
-parser.add_argument("--scale", type=float, default=1.0)
+parser.add_argument("--scale", type=float, default=0.8)
 parser.add_argument("--radius", type=float, default=1.2)
 parser.add_argument("--num-views", type=int, default=50)
 parser.add_argument("--seed", type=int)
@@ -142,7 +142,7 @@ def scene_bbox(single_obj=None, ignore_matrix=False):
 bbox_min, bbox_max = scene_bbox()
 scale = 1 / max(bbox_max - bbox_min)
 for obj in scene_root_objects():
-    obj.scale = obj.scale * scale * 0.8
+    obj.scale = obj.scale * scale * args.scale
 # Apply scale to matrix_world.
 bpy.context.view_layer.update()
 bbox_min, bbox_max = scene_bbox()

@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--input-models-path", type=str, required=True)
 # parser.add_argument("--output-dir", type=str, required=True)
 parser.add_argument("--resolution", type=int, default=256)
-parser.add_argument("--scale", type=float, default=1.0)
+parser.add_argument("--scale", type=float, default=0.8)
 parser.add_argument("--radius", type=float, default=2)
 parser.add_argument("--num-views", type=int, default=50)
 parser.add_argument("--seed", type=int)
@@ -33,7 +33,7 @@ for item in model_paths:
     uid = item["uid"]
     path = os.path.join('data', group, f'{uid}.glb')
 
-    command = f'blenderproc run {script_file} --object-path {path} --num-views {args.num_views} --resolution {args.resolution}'
+    command = f'blenderproc run {script_file} --object-path {path} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale}'
     cmds.append(command)
     #cmds.append(item)
     uids.append(uid)
