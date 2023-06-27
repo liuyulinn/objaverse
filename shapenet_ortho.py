@@ -63,7 +63,8 @@ if args.engine == "cycles":
         bproc.renderer.set_render_devices(use_only_cpu=True)
         bproc.renderer.set_cpu_threads(16)
     # bproc.renderer.set_render_devices()
-    bproc.renderer.set_denoiser("OPTIX")
+    # bproc.renderer.set_denoiser("OPTIX")
+    bpy.context.scene.cycles.use_denoising = True
     bpy.context.scene.cycles.filter_width = 0.01
     bproc.renderer.set_output_format(enable_transparency=True)
     bproc.renderer.set_light_bounces(
