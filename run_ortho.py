@@ -6,7 +6,7 @@ import subprocess
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input-models-path", type=str, required=True)
-# parser.add_argument("--output-dir", type=str, required=True)
+parser.add_argument("--output_dir", type=str, required=True)
 parser.add_argument("--resolution", type=int, default=256)
 parser.add_argument("--scale", type=float, default=0.8)
 parser.add_argument("--radius", type=float, default=1.2)
@@ -33,7 +33,7 @@ for item in model_paths:
     uid = item["uid"]
     path = os.path.join('data', group, f'{uid}.glb')
 
-    command = f'blenderproc run {script_file} --object-path {path} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale}'
+    command = f'blenderproc run {script_file} --object-path {path} --output_dir {args.output_dir} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale}'
     cmds.append(command)
     #cmds.append(item)
     uids.append(uid)
@@ -44,7 +44,7 @@ if args.end == 0:
     args.end = len(cmds)
 for i in range(args.start, args.end):
     #print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
-    if os.path.exists(f'/objaverse-processed/rendered_ortho/views_{uids[i]}'):
+    if os.path.exists(f'{args.output_dir}/views_{uids[i]}'):
         os.system(f'echo already rendered {i} / {len(cmds)}')
         os.system(f'echo fail to render {i} ') #>> /yulin/log_already.txt')
         continue

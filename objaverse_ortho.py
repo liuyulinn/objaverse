@@ -16,6 +16,7 @@ from mathutils import Vector
 parser = argparse.ArgumentParser()
 parser.add_argument("--object-path", type=str, required=True)
 parser.add_argument("--use-gpu", type=int, default = 1)
+parser.add_argument("--output_dir", type=str, default="/objaverse-processed/rendered_ortho")
 # parser.add_argument("--output-dir", type=str, required=True)
 parser.add_argument("--resolution", type=int, default=256)
 parser.add_argument("--scale", type=float, default=0.8)
@@ -35,7 +36,7 @@ args = parser.parse_args()
 #args.object_path = "/home/yulin/data/objaverse/000074a334c541878360457c672b6c2e.obj"
 uid = args.object_path.split("/")[-1].split(".")[0]
 
-args.output_dir = f'/objaverse-processed/rendered_new_ortho/views_{uid}'
+args.output_dir = f'{args.output_dir}/views_{uid}'
 # args.output_dir = f'views_{uid}'
 args.no_depth = 0
 
