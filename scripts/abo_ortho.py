@@ -10,6 +10,7 @@ from pathlib import Path
 import math
 import numpy as np
 from mathutils import Vector
+import os
 # ---------------------------------------------------------------------------- #
 # Arguments
 # ---------------------------------------------------------------------------- #
@@ -17,6 +18,8 @@ parser = argparse.ArgumentParser()
 parser.add_argument("--object-path", type=str, required=True)
 parser.add_argument("--use-gpu", type=int, default = 1)
 parser.add_argument("--output_dir", type=str, default="/objaverse-processed/rendered_ortho")
+parser.add_argument("--uid", type=str, default="shapenet")
+
 # parser.add_argument("--output-dir", type=str, required=True)
 parser.add_argument("--resolution", type=int, default=256)
 parser.add_argument("--scale", type=float, default=0.8)
@@ -34,9 +37,10 @@ args = parser.parse_args()
 #args.object_path = "/home/yulin/data/objaverse/model_normalized.obj"
 #args.object_path = "origin.obj"
 #args.object_path = "/home/yulin/data/objaverse/000074a334c541878360457c672b6c2e.obj"
-uid = args.object_path.split("/")[-1].split(".")[0]
-
-args.output_dir = f'{args.output_dir}/views_{uid}'
+# uid = args.object_path.split("/")[-1].split(".")[0]
+# print(args.object_path)
+# print(os.path.exists(args.object_path))
+args.output_dir = f'{args.output_dir}/views_{args.uid}'
 # args.output_dir = f'views_{uid}'
 args.no_depth = 0
 
