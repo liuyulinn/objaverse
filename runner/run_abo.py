@@ -3,6 +3,8 @@ import argparse
 import os
 import sys
 import subprocess
+import gzip
+import numpy as np
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input-models-path", type=str, required=True)
@@ -21,27 +23,51 @@ parser.add_argument("--use-gpu", type=int, default=1)
 parser.add_argument("--omit", type=int, default=1)
 args = parser.parse_args()
 
-sample_dir_list = os.listdir(args.input_models_path)
-sample_dir_list.sort()
+data_root = args.input_models_path
+render_data_dir = f'{data_root}/3dmodels/original'
+listing_dir = f'{data_root}/listings/metadata'
+model_meta = f'{data_root}/3dmodels/metadata/3dmodels.csv.gz'
+# sample_dir_list.sort()
 # with open(args.input_models_path, "r") as f:
 #     model_paths = json.load(f)
     #model_paths.sort()
 
 cmds = []
 uids = []
-script_file = os.path.join(os.path.dirname(__file__), "shapenet_ortho.py")
+script_file = "scripts/abo_ortho.py"
 
-for name in sample_dir_list:
-    sample_dir = os.path.join(args.input_models_path, name)
-    if os.path.exists(os.path.join(sample_dir, 'model_normalized.obj')):
-        path = os.path.join(sample_dir, 'model_normalized.obj')
-    else:
-        path = os.path.join(sample_dir, "models", "model_normalized.obj")
+model_paths = {}
+with gzip.open(model_meta, 'rt') as f:
+    entries = f.readlines()[1:]
+    for entry in entries:
+        meta_data = entry.strip().split(',')
+        model = meta_data[0]
+        model_path = meta_data[1]
+        # extent = np.array([float(data) for data in meta_data[-3:]], dtype=np.float32)
+        model_paths.update({model: model_path})
 
-    command = f'blenderproc run {script_file} --object-path {path} --output_dir {args.output_dir} --uid {name} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --use-gpu {args.use_gpu}'
-    cmds.append(command)
-    #cmds.append(item)
-    uids.append(name)
+for listing in os.listdir(listing_dir):
+    with gzip.open(os.path.join(listing_dir, listing), 'rb') as f:
+        listing_lines = f.readlines()
+    for line in listing_lines:
+        data = json.loads(line, encoding='utf-8')
+        if data['product_type'][0]['value'].lower() != 'table':
+            continue
+        path = os.path.join(render_data_dir, model_paths['item_id'] + '.glb')
+        command = f'blenderproc run {script_file} --object-path {path} --output_dir {args.output_dir} --uid {name} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --use-gpu {args.use_gpu}'
+        cmds.append(command)
+        #cmds.append(item)
+        uids.append(data['item_id'])
+
+
+# for name in sample_dir_list:
+#     sample_dir = os.path.join(args.input_models_path, name)
+    # if os.path.exists(os.path.join(sample_dir, 'model_normalized.obj')):
+    #     path = os.path.join(sample_dir, 'model_normalized.obj')
+    # else:
+    #     path = os.path.join(sample_dir, "models", "model_normalized.obj")
+
+    
 
 print(f'total mount of objs: {len(cmds)}')
 

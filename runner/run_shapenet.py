@@ -29,7 +29,7 @@ sample_dir_list.sort()
 
 cmds = []
 uids = []
-script_file = os.path.join(os.path.dirname(__file__), "shapenet_ortho.py")
+script_file = "scripts/shapenet_ortho.py"
 
 for name in sample_dir_list:
     sample_dir = os.path.join(args.input_models_path, name)

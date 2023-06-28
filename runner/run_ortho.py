@@ -26,7 +26,7 @@ with open(args.input_models_path, "r") as f:
 
 cmds = []
 uids = []
-script_file = os.path.join(os.path.dirname(__file__), "objaverse_ortho.py")
+script_file = "scripts/objaverse_ortho.py"
 
 for item in model_paths:
     group = item["group"]
