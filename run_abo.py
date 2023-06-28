@@ -48,8 +48,8 @@ print(f'total mount of objs: {len(cmds)}')
 if args.end == 0:
     args.end = len(cmds)
 for i in range(args.start, args.end):
-    if args.omit:
     #print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
+    if args.omit:
         if os.path.exists(f'{args.output_dir}/views_{uids[i]}'):
             os.system(f'echo already rendered {i} / {len(cmds)}')
             os.system(f'echo fail to render {i} ') #>> /yulin/log_already.txt')
