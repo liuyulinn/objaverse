@@ -19,6 +19,7 @@ parser.add_argument("--start", type=int, default=0)
 parser.add_argument("--end", type=int, default=0)
 parser.add_argument("--use-gpu", type=int, default=1)
 parser.add_argument("--omit", type=int, default=1)
+parser.add_argument("--ortho", type=int, default=1)
 args = parser.parse_args()
 
 sample_dir_list = os.listdir(args.input_models_path)
@@ -29,7 +30,10 @@ sample_dir_list.sort()
 
 cmds = []
 uids = []
-script_file = "scripts/shapenet_ortho.py"
+if args.ortho:
+    script_file = "scripts/shapenet_ortho.py"
+else:
+    script_file = "scripts/shapenet_all.py"
 
 for name in sample_dir_list:
     sample_dir = os.path.join(args.input_models_path, name)

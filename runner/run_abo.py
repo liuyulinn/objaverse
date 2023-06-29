@@ -21,6 +21,7 @@ parser.add_argument("--start", type=int, default=0)
 parser.add_argument("--end", type=int, default=0)
 parser.add_argument("--use-gpu", type=int, default=1)
 parser.add_argument("--omit", type=int, default=1)
+parser.add_argument("--ortho", type=int, default=1)
 args = parser.parse_args()
 
 data_root = args.input_models_path
@@ -34,7 +35,10 @@ model_meta = f'{data_root}/3dmodels/metadata/3dmodels.csv.gz'
 
 cmds = []
 uids = []
-script_file = "scripts/abo_ortho.py"
+if args.ortho:
+    script_file = "scripts/abo_ortho.py"
+else:
+    script_file = "scripts/abo_all.py"
 
 model_paths = {}
 with gzip.open(model_meta, 'rt') as f:
