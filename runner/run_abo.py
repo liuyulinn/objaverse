@@ -49,6 +49,7 @@ with gzip.open(model_meta, 'rt') as f:
         model_path = meta_data[1]
         # extent = np.array([float(data) for data in meta_data[-3:]], dtype=np.float32)
         model_paths.update({model: model_path})
+# print(model_paths.keys())
 
 for listing in os.listdir(listing_dir):
     with gzip.open(os.path.join(listing_dir, listing), 'rb') as f:
@@ -57,11 +58,16 @@ for listing in os.listdir(listing_dir):
         data = json.loads(line, encoding='utf-8')
         if data['product_type'][0]['value'].lower() != 'table':
             continue
-        path = os.path.join(render_data_dir, model_paths['item_id'] + '.glb')
+        if not (data["item_id"] in model_paths.keys()):
+            continue
+        #     print('no exist in ')
+        # print()
+        path = os.path.join(render_data_dir, model_paths[data['item_id']] )
+        name = data['item_id']
         command = f'blenderproc run {script_file} --object-path {path} --output_dir {args.output_dir} --uid {name} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --use-gpu {args.use_gpu}'
         cmds.append(command)
         #cmds.append(item)
-        uids.append(data['item_id'])
+        uids.append(name)
 
 
 # for name in sample_dir_list:
