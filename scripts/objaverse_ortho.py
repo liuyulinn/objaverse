@@ -10,6 +10,7 @@ from pathlib import Path
 import math
 import numpy as np
 from mathutils import Vector
+from scipy.spatial.transform import Rotation as R
 # ---------------------------------------------------------------------------- #
 # Arguments
 # ---------------------------------------------------------------------------- #
@@ -20,12 +21,13 @@ parser.add_argument("--output_dir", type=str, default="/objaverse-processed/rend
 # parser.add_argument("--output-dir", type=str, required=True)
 parser.add_argument("--resolution", type=int, default=256)
 parser.add_argument("--scale", type=float, default=0.8)
-parser.add_argument("--radius", type=float, default=1.2)
+parser.add_argument("--radius", type=float, default=1.0)
 parser.add_argument("--num-views", type=int, default=50)
 parser.add_argument("--seed", type=int)
 parser.add_argument("--engine", type=str, default="cycles")
 parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
+parser.add_argument("--random", type=int, default=0)
 args = parser.parse_args()
 
 #args.object_path = "/home/yulin/data/objaverse/005c71d003e24a588bc203d578de416c.glb"
@@ -272,11 +274,15 @@ aabb = [np.array(bbox_min).tolist(), np.array(bbox_max).tolist()]
 meta = {"fovy": fovy,  "aabb": aabb}
 frames = []
 
+if args.random:
+    random_rotation = R.random()
+
 for i, location in enumerate(locations):
     # Compute rotation based on vector going from location towards poi
     # print(location)
     # location = location * args.radius
     # print(location)
+    location = random_rotation @ location 
     rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
 
     # Add homogeneous cam pose based on location an rotation

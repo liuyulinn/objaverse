@@ -17,6 +17,7 @@ parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
 parser.add_argument("--start", type=int, default=0)
 parser.add_argument("--end", type=int, default=0)
+parser.add_argument("--random", type=int, default=1)
 args = parser.parse_args()
 
 
@@ -33,7 +34,7 @@ for item in model_paths:
     uid = item["uid"]
     path = os.path.join('data', group, f'{uid}.glb')
 
-    command = f'blenderproc run {script_file} --object-path {path} --output_dir {args.output_dir} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale}'
+    command = f'blenderproc run {script_file} --object-path {path} --output_dir {args.output_dir} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --random {args.random}'
     cmds.append(command)
     #cmds.append(item)
     uids.append(uid)
