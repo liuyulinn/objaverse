@@ -17,7 +17,7 @@ parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
 parser.add_argument("--start", type=int, default=0)
 parser.add_argument("--end", type=int, default=0)
-parser.add_argument("--random", type=int, default=1)
+parser.add_argument("--random", type=int, default=0)
 args = parser.parse_args()
 
 
