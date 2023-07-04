@@ -17,6 +17,7 @@ parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
 parser.add_argument("--start", type=int, default=0)
 parser.add_argument("--end", type=int, default=0)
+parser.add_argument("--omit", type=int, default=1)
 parser.add_argument("--random", type=int, default=0)
 args = parser.parse_args()
 
@@ -44,11 +45,12 @@ print(f'total mount of objs: {len(cmds)}')
 if args.end == 0:
     args.end = len(cmds)
 for i in range(args.start, args.end):
+    if args.omit:
     #print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
-    if os.path.exists(f'{args.output_dir}/views_{uids[i]}'):
-        os.system(f'echo already rendered {i} / {len(cmds)}')
-        os.system(f'echo fail to render {i} ') #>> /yulin/log_already.txt')
-        continue
+        if os.path.exists(f'{args.output_dir}/views_{uids[i]}'):
+            os.system(f'echo already rendered {i} / {len(cmds)}')
+            os.system(f'echo fail to render {i} ') #>> /yulin/log_already.txt')
+            continue
 
     try:
         ret = os.system(cmds[i])
