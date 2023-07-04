@@ -21,3 +21,4 @@ blenderproc run objaverse1.py --object-path "data/000-000/000074a334c54187836045
 #python3 run.py --input-models-path lvis_final.json --start 331
 
 python3 multiprocess.py --input-models-path lvis_final.json --start 15000 --end 20000
+

@@ -1,0 +1,1 @@
+blenderproc run scripts/objaverse_ortho.py --object-path "000074a334c541878360457c672b6c2e.glb" --output_dir "objaverse_results" --random 1
