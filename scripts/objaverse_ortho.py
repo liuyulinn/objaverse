@@ -112,6 +112,7 @@ parser.add_argument("--engine", type=str, default="cycles")
 parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
 parser.add_argument("--random", type=int, default=0)
+parser.add_argument("--random_angle", type=int, default=0)
 args = parser.parse_args()
 
 #args.object_path = "/home/yulin/data/objaverse/005c71d003e24a588bc203d578de416c.glb"
@@ -364,14 +365,14 @@ if args.random:
 for i, location in enumerate(locations):
     # Compute rotation based on vector going from location towards poi
     # print(location)
-    if args.random:
+    if args.random_angle:
         azimuth = np.random.uniform(0, 2 * np.pi)
         elevation = np.arccos(np.random.uniform(-1, 1))
         x = np.cos(azimuth) * np.sin(elevation)
         y = np.sin(azimuth) * np.sin(elevation)
         z = np.cos(elevation)
         location1 = np.array([x, y, z])
-        random_vector = location1 * 30 / 180 * np.pi
+        random_vector = location1 * args.random_angle / 180 * np.pi
         random_rotation_plus = axis_angle_to_matrix(random_vector)
 
     print(random_rotation_plus.shape)
