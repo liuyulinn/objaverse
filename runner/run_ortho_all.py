@@ -20,6 +20,7 @@ parser.add_argument("--end", type=int, default=0)
 parser.add_argument("--omit", type=int, default=1)
 parser.add_argument("--random", type=int, default=0)
 parser.add_argument("--use-gpu", type=int, default=1)
+parser.add_argument("--ortho", type=int, default=1)
 args = parser.parse_args()
 
 
@@ -29,14 +30,19 @@ with open(args.input_models_path, "r") as f:
 
 cmds = []
 uids = []
-script_file = "scripts/objaverse_ortho.py"
+if args.ortho:
+    script_file = "scripts/objaverse_ortho.py"
+else:
+    script_file = "scripts/objaverse_all.py"
+
 
 for item in model_paths:
-    group = item["group"]
-    uid = item["uid"]
+    _, group, uid = model_paths[item].split('/')
+    # group = item["group"]
+    # uid = item["uid"]
     path = os.path.join('data', group, f'{uid}.glb')
 
-    command = f'blenderproc run {script_file} --object-path {path} --output_dir {args.output_dir} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --random {args.random} --use-gpu {args.use_gpu}'
+    command = f'blenderproc run {script_file} --object-path {path} --output_dir {os.path.join(args.output_dir, group)} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --random {args.random} --use-gpu {args.use_gpu}'
     cmds.append(command)
     #cmds.append(item)
     uids.append(uid)
