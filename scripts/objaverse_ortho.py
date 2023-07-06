@@ -365,6 +365,9 @@ if args.random:
 for i, location in enumerate(locations):
     # Compute rotation based on vector going from location towards poi
     # print(location)
+    if args.random:
+        location = random_rotation.as_matrix() @ np.array(location)
+
     if args.random_angle:
         azimuth = np.random.uniform(0, 2 * np.pi)
         elevation = np.arccos(np.random.uniform(-1, 1))
@@ -375,11 +378,10 @@ for i, location in enumerate(locations):
         random_vector = location1 * args.random_angle / 180 * np.pi
         random_rotation_plus = axis_angle_to_matrix(random_vector)
 
-    print(random_rotation_plus.shape)
+        location = random_rotation_plus @ location
+    # print(random_rotation_plus.shape)
     # location = random_rotation_plus @ (random_rotation @ location)
     # rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
-
-    location = random_rotation_plus @ random_rotation.as_matrix() @ np.array(location)
     rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
 
     # Add homogeneous cam pose based on location an rotation
