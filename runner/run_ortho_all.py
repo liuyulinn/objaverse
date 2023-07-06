@@ -41,7 +41,7 @@ for item in model_paths:
     _, group, uid = model_paths[item].split('/')
     # group = item["group"]
     # uid = item["uid"]
-    path = os.path.join('data', group, f'{uid}.glb')
+    path = os.path.join('data', group, uid)
 
     command = f'blenderproc run {script_file} --object-path {path} --output_dir {os.path.join(args.output_dir, group)} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --random {args.random} --use-gpu {args.use_gpu} --random_angle {args.random_angle}'
     cmds.append(command)
