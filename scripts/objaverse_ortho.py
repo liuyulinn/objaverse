@@ -124,6 +124,7 @@ args = parser.parse_args()
 uid = args.object_path.split("/")[-1].split(".")[0]
 
 args.output_dir = f'{args.output_dir}/views_{uid}'
+print(args.output_dir)
 # args.output_dir = f'views_{uid}'
 args.no_depth = 0
 
