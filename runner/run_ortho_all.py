@@ -46,6 +46,7 @@ for item in model_paths:
     print(path)
 
     command = f'blenderproc run {script_file} --object-path {path} --output_dir {os.path.join(args.output_dir, group)} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --random {args.random} --use-gpu {args.use_gpu} --random_angle {args.random_angle}'
+    print(os.path.join(args.output_dir, group))
     cmds.append(command)
 
     #cmds.append(item)
