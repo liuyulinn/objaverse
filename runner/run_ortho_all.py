@@ -31,6 +31,7 @@ with open(args.input_models_path, "r") as f:
 
 cmds = []
 uids = []
+saves = []
 if args.ortho:
     script_file = "scripts/objaverse_ortho.py"
 else:
@@ -42,11 +43,14 @@ for item in model_paths:
     # group = item["group"]
     # uid = item["uid"]
     path = os.path.join('data', group, uid)
+    print(path)
 
     command = f'blenderproc run {script_file} --object-path {path} --output_dir {os.path.join(args.output_dir, group)} --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --random {args.random} --use-gpu {args.use_gpu} --random_angle {args.random_angle}'
     cmds.append(command)
+
     #cmds.append(item)
     uids.append(uid)
+    saves.append(os.path.join(args.output_dir, group))
 
 print(f'total mount of objs: {len(cmds)}')
 
@@ -55,7 +59,7 @@ if args.end == 0:
 for i in range(args.start, args.end):
     if args.omit:
     #print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
-        if os.path.exists(f'{args.output_dir}/views_{uids[i]}'):
+        if os.path.exists(f'{saves[i]}/views_{uids[i]}'):
             os.system(f'echo already rendered {i} / {len(cmds)}')
             os.system(f'echo fail to render {i} ') #>> /yulin/log_already.txt')
             continue
@@ -67,7 +71,7 @@ for i in range(args.start, args.end):
             break
         # elif ret != 0:
         #     print("Non-zero return", ret)
-        os.system(f'echo rendering {i} / {len(cmds)} {uids[i]} ') #>> /yulin/loglog.tx')
+        os.system(f'echo rendering {i} / {len(cmds)} {uids[i]} to {saves[i]}/views_{uids[i]}') #>> /yulin/loglog.tx')
     except: 
         info=sys.exc_info() 
         print(info[0],":",info[1] )
