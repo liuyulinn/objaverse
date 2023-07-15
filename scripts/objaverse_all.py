@@ -112,6 +112,7 @@ parser.add_argument("--engine", type=str, default="cycles")
 parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
 parser.add_argument("--random", type=int, default=0)
+parser.add_argument("--random_angle", type=int, default=0)
 args = parser.parse_args()
 
 #args.object_path = "/home/yulin/data/objaverse/005c71d003e24a588bc203d578de416c.glb"
