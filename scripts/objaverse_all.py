@@ -148,6 +148,7 @@ parser.add_argument("--random", type=int, default=0)
 parser.add_argument("--random_angle", type=int, default=0)
 args = parser.parse_args()
 
+n_threads = 16
 #args.object_path = "/home/yulin/data/objaverse/005c71d003e24a588bc203d578de416c.glb"
 
 #args.object_path = "/home/yulin/data/objaverse/000074a334c541878360457c672b6c2e.glb"
@@ -189,7 +190,7 @@ if args.engine == "cycles":
     else:
         #bproc.python.utility.Initializer.init() #compute_device='CPU') #, compute_device_type=None, use_experimental_features=False, clean_up_scene=True)
         bproc.renderer.set_render_devices(use_only_cpu=True)
-        bproc.renderer.set_cpu_threads(16)
+        bproc.renderer.set_cpu_threads(n_threads)
     #bpy.context.preferences.addons["cycles"].preferences.get_devices()
     #bproc.renderer.set_denoiser("OPTIX")
     disable_all_denoiser()
@@ -359,6 +360,7 @@ if not args.no_depth:
 if not args.no_normal:
     bproc.renderer.enable_normals_output(output_dir=str(output_dir))
 # Render RGB images
+bproc.renderer.set_cpu_threads(n_threads)
 data = bproc.renderer.render(output_dir=str(output_dir), return_data=False)
 
 meta["frames"] = frames
@@ -443,7 +445,7 @@ for i, location in enumerate(locations):
 # # Render RGB images
 # data = bproc.renderer.render(output_dir=str(output_dir), return_data=False)
 
-
+bproc.renderer.set_cpu_threads(n_threads)
 bproc.renderer.render(
     output_dir=str(output_dir),
     file_prefix="ortho_",
