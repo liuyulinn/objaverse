@@ -3,6 +3,9 @@ import argparse
 import os
 import sys
 import subprocess
+import glob
+import threading
+import zipfile
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--input-models-path", type=str, required=True)
@@ -26,6 +29,15 @@ parser.add_argument("--ortho", type=int, default=1)
 args = parser.parse_args()
 
 
+def dump(local_path, remote_path):
+    with zipfile.ZipFile(remote_path, "w") as fo:
+        for f in glob.glob(os.path.join(local_path, "*.*")):
+            fo.write(f, os.path.basename(f))
+
+def dispatch_dump(local_path, remote_path):
+    threading.Thread(target=dump, args=(local_path, remote_path)).start()
+
+
 with open(args.input_models_path, "r") as f:
     model_paths = json.load(f)
     #model_paths.sort()
@@ -33,6 +45,7 @@ with open(args.input_models_path, "r") as f:
 cmds = []
 uids = []
 saves = []
+local_saves = []
 if args.ortho:
     script_file = "scripts/objaverse_ortho.py"
 else:
@@ -44,9 +57,10 @@ for item in model_paths:
     # group = item["group"]
     # uid = item["uid"]
     path = os.path.join('data', group, uid)
-    print(path)
+    # print(path)
     
-    save_dir = f'{args.output_dir}/{group}'
+    save_dir = os.path.abspath(f'{group}')
+    local_saves.append(save_dir)
     command = f'blenderproc run {script_file} --object-path {path} --output_dir {save_dir}  --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --random {args.random} --use-gpu {args.use_gpu} --random_angle {args.random_angle} --no-depth {args.no_depth} --no-normal {args.no_normal}'
     # print("save_path", f'{args.output_dir}/{group}')
     cmds.append(command)
@@ -62,7 +76,7 @@ if args.end == 0:
 for i in range(args.start, args.end):
     if args.omit:
     #print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
-        if os.path.exists(f'{saves[i]}/views_{uids[i]}'):
+        if os.path.exists(f'{saves[i]}/views_{uids[i].split(".")[0]}.zip'):
             os.system(f'echo already rendered {i} / {len(cmds)}')
             os.system(f'echo fail to render {i} ') #>> /yulin/log_already.txt')
             continue
@@ -72,10 +86,12 @@ for i in range(args.start, args.end):
         if ret == 2:
             print("KeyboardInterrupt")
             break
+        os.makedirs(saves[i], exist_ok=True)
+        dispatch_dump(os.path.join(local_saves[i], f'views_{uids[i].split(".")[0]}'), os.path.join(saves[i], f'views_{uids[i].split(".")[0]}.zip'))
         # elif ret != 0:
         #     print("Non-zero return", ret)
-        os.system(f'echo rendering {i} / {len(cmds)} {uids[i]} to {saves[i]}/views_{uids[i]}') #>> /yulin/loglog.tx')
-    except: 
+        print(f'rendering {i} / {len(cmds)} {uids[i]} to {saves[i]}/views_{uids[i]}') #>> /yulin/loglog.tx')
+    except Exception: 
         info=sys.exc_info() 
         print(info[0],":",info[1] )
 
