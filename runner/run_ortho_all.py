@@ -15,6 +15,7 @@ parser.add_argument("--seed", type=int)
 parser.add_argument("--engine", type=str, default="cycles")
 parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
+parser.add_argument("--no-normal", action="store_true")
 parser.add_argument("--start", type=int, default=0)
 parser.add_argument("--end", type=int, default=0)
 parser.add_argument("--omit", type=int, default=1)
@@ -46,7 +47,7 @@ for item in model_paths:
     print(path)
     
     save_dir = f'{args.output_dir}/{group}'
-    command = f'blenderproc run {script_file} --object-path {path} --output_dir {save_dir}  --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --random {args.random} --use-gpu {args.use_gpu} --random_angle {args.random_angle}'
+    command = f'blenderproc run {script_file} --object-path {path} --output_dir {save_dir}  --num-views {args.num_views} --resolution {args.resolution} --radius {args.radius} --scale {args.scale} --random {args.random} --use-gpu {args.use_gpu} --random_angle {args.random_angle} --no-depth {args.no_depth} --no-normal {args.no_normal}'
     # print("save_path", f'{args.output_dir}/{group}')
     cmds.append(command)
 

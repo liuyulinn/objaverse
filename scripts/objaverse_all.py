@@ -111,6 +111,7 @@ parser.add_argument("--seed", type=int)
 parser.add_argument("--engine", type=str, default="cycles")
 parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
+parser.add_argument("--no-normal", action="store_true")
 parser.add_argument("--random", type=int, default=0)
 parser.add_argument("--random_angle", type=int, default=0)
 args = parser.parse_args()
@@ -316,31 +317,33 @@ print(elevations.max(), elevations.min())
 if not args.no_depth:
     bproc.renderer.enable_depth_output(False, output_dir=str(output_dir))
 
-bproc.renderer.enable_normals_output(output_dir=str(output_dir))
+if not args.no_normal:
+    bproc.renderer.enable_normals_output(output_dir=str(output_dir))
 # Render RGB images
 data = bproc.renderer.render(output_dir=str(output_dir), return_data=False)
 
-
-
+meta["frames"] = frames
+with open(output_dir / "meta.json", "w") as f:
+    json.dump(meta, f, indent=4)
 
 # # -------------------------------------------------------------------------- #
 # # Render orthographic views
 # # -------------------------------------------------------------------------- #
-# bproc.utility.reset_keyframes()
+bproc.utility.reset_keyframes()
 
-# cam_ob = bpy.context.scene.camera
-# cam_ob.data.type = "ORTHO"
-# cam_ob.data.ortho_scale = 1.0
+cam_ob = bpy.context.scene.camera
+cam_ob.data.type = "ORTHO"
+cam_ob.data.ortho_scale = 1.0
 
-# poi = np.zeros(3)
-# # locations = [
-# #     [1, 0, 0],
-# #     [-1, 0, 0],
-# #     [0, 1, 0],
-# #     [0, -1, 0],
-# #     [0, 0, 1],
-# #     [0, 0, -1],
-# # ] #* args.radius
+poi = np.zeros(3)
+locations = [
+    [1, 0, 0],
+    [-1, 0, 0],
+    [0, 1, 0],
+    [0, -1, 0],
+    [0, 0, 1],
+    [0, 0, -1],
+] 
 
 # locations = [
 #     [args.radius, 0, 0],
@@ -362,31 +365,31 @@ data = bproc.renderer.render(output_dir=str(output_dir), return_data=False)
 # if args.random:
 #     random_rotation = R.random()
 
-# for i, location in enumerate(locations):
-#     # Compute rotation based on vector going from location towards poi
-#     # print(location)
-#     if args.random:
-#         azimuth = np.random.uniform(0, 2 * np.pi)
-#         elevation = np.arccos(np.random.uniform(-1, 1))
-#         x = np.cos(azimuth) * np.sin(elevation)
-#         y = np.sin(azimuth) * np.sin(elevation)
-#         z = np.cos(elevation)
-#         location1 = np.array([x, y, z])
-#         random_vector = location1 * 30 / 180 * np.pi
-#         random_rotation_plus = axis_angle_to_matrix(random_vector)
+for i, location in enumerate(locations):
+    # Compute rotation based on vector going from location towards poi
+    # print(location)
+    # if args.random:
+    #     azimuth = np.random.uniform(0, 2 * np.pi)
+    #     elevation = np.arccos(np.random.uniform(-1, 1))
+    #     x = np.cos(azimuth) * np.sin(elevation)
+    #     y = np.sin(azimuth) * np.sin(elevation)
+    #     z = np.cos(elevation)
+    #     location1 = np.array([x, y, z])
+    #     random_vector = location1 * 30 / 180 * np.pi
+    #     random_rotation_plus = axis_angle_to_matrix(random_vector)
 
-#     print(random_rotation_plus.shape)
-#     # location = random_rotation_plus @ (random_rotation @ location)
-#     # rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
+    # print(random_rotation_plus.shape)
+    # location = random_rotation_plus @ (random_rotation @ location)
+    # rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
 
-#     location = random_rotation_plus @ random_rotation.as_matrix() @ np.array(location)
-#     rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
+    # location = random_rotation_plus @ random_rotation.as_matrix() @ np.array(location)
+    rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
 
-#     # Add homogeneous cam pose based on location an rotation
-#     cam2world_matrix = bproc.math.build_transformation_mat(location, rotation_matrix)
-#     bproc.camera.add_camera_pose(cam2world_matrix, frame=i)
+    # Add homogeneous cam pose based on location an rotation
+    cam2world_matrix = bproc.math.build_transformation_mat(location, rotation_matrix)
+    bproc.camera.add_camera_pose(cam2world_matrix, frame=i)
 
-#     frame = dict(
+    # frame = dict(
 #         transform_matrix = cam2world_matrix.tolist(),
 #         # azimuth = azimuth,
 #         # elevation = elevation,
@@ -402,15 +405,12 @@ data = bproc.renderer.render(output_dir=str(output_dir), return_data=False)
 # data = bproc.renderer.render(output_dir=str(output_dir), return_data=False)
 
 
-# bproc.renderer.render(
-#     output_dir=str(output_dir),
-#     file_prefix="ortho_",
-#     return_data=False,
-#     load_keys={"colors"},
-#     output_key=None,
-# )
+bproc.renderer.render(
+    output_dir=str(output_dir),
+    file_prefix="ortho_",
+    return_data=False,
+    load_keys={"colors"},
+    output_key=None,
+)
 
 # Save meta info
-meta["frames"] = frames
-with open(output_dir / "meta.json", "w") as f:
-    json.dump(meta, f, indent=4)

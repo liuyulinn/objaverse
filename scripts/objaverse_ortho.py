@@ -111,6 +111,7 @@ parser.add_argument("--seed", type=int)
 parser.add_argument("--engine", type=str, default="cycles")
 parser.add_argument("--light-energy", type=float, default=10)
 parser.add_argument("--no-depth", action="store_true")
+parser.add_argument("--no-depth", action="store_true")
 parser.add_argument("--random", type=int, default=0)
 parser.add_argument("--random_angle", type=int, default=0)
 args = parser.parse_args()
@@ -400,7 +401,8 @@ for i, location in enumerate(locations):
 if not args.no_depth:
     bproc.renderer.enable_depth_output(False, output_dir=str(output_dir))
 
-bproc.renderer.enable_normals_output(output_dir=str(output_dir))
+if not args.no_normal:
+    bproc.renderer.enable_normals_output(output_dir=str(output_dir))
 # Render RGB images
 data = bproc.renderer.render(output_dir=str(output_dir), return_data=False)
 
