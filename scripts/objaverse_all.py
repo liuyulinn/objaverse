@@ -1,6 +1,7 @@
 # isort: off
 import blenderproc as bproc
 from blenderproc.python.utility.SetupUtility import SetupUtility
+from blenderproc.python.utility.Utility import Utility
 import bpy
 
 # isort: on
@@ -11,6 +12,37 @@ import math
 import numpy as np
 from mathutils import Vector
 from scipy.spatial.transform import Rotation as R
+
+
+def disable_all_denoiser():
+    """ Disables all denoiser.
+
+    At the moment this includes the cycles and the intel denoiser.
+    """
+    # Disable cycles denoiser
+    bpy.context.view_layer.cycles.use_denoising = False
+    bpy.context.scene.cycles.use_denoising = False
+
+    # Disable intel denoiser
+    if bpy.context.scene.use_nodes:
+        nodes = bpy.context.scene.node_tree.nodes
+        links = bpy.context.scene.node_tree.links
+
+        # Go through all existing denoiser nodes
+        for denoiser_node in Utility.get_nodes_with_type(nodes, 'CompositorNodeDenoise'):
+            in_node = denoiser_node.inputs['Image']
+            out_node = denoiser_node.outputs['Image']
+
+            # If it is fully included into the node tree
+            if in_node.is_linked and out_node.is_linked:
+                # There is always only one input link
+                in_link = in_node.links[0]
+                # Connect from_socket of the incoming link with all to_sockets of the out going links
+                for link in out_node.links:
+                    links.new(in_link.from_socket, link.to_socket)
+
+            # Finally remove the denoiser node
+            nodes.remove(denoiser_node)
 
 
 def quaternion_to_matrix(quaternions):
@@ -160,8 +192,15 @@ if args.engine == "cycles":
         bproc.renderer.set_cpu_threads(16)
     #bpy.context.preferences.addons["cycles"].preferences.get_devices()
     #bproc.renderer.set_denoiser("OPTIX")
+    disable_all_denoiser()
+    bpy.context.scene.use_nodes = False
     bpy.context.scene.cycles.use_denoising = True
-    bpy.context.scene.cycles.filter_width = 0.01
+    bpy.context.view_layer.cycles.use_denoising = True
+    bpy.context.scene.cycles.denoiser = 'OPENIMAGEDENOISE'
+    bpy.context.scene.cycles.filter_width = 1.0
+    bpy.context.scene.cycles.denoising_prefilter = 'FAST'
+    bpy.context.view_layer.use_pass_normal = False
+    bpy.context.view_layer.use_pass_diffuse_color = False
     bproc.renderer.set_output_format(enable_transparency=True)
     bproc.renderer.set_light_bounces(
         diffuse_bounces=1,
