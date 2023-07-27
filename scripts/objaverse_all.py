@@ -110,8 +110,8 @@ parser.add_argument("--num-views", type=int, default=50)
 parser.add_argument("--seed", type=int)
 parser.add_argument("--engine", type=str, default="cycles")
 parser.add_argument("--light-energy", type=float, default=10)
-parser.add_argument("--no-depth", action="store_true")
-parser.add_argument("--no-normal", action="store_true")
+parser.add_argument("--no-depth", type=int, default=1)
+parser.add_argument("--no-normal", type=int, default=1)
 parser.add_argument("--random", type=int, default=0)
 parser.add_argument("--random_angle", type=int, default=0)
 args = parser.parse_args()
@@ -126,7 +126,7 @@ uid = args.object_path.split("/")[-1].split(".")[0]
 
 args.output_dir = f'{args.output_dir}/views_{uid}'
 # args.output_dir = f'views_{uid}'
-args.no_depth = 0
+# args.no_depth = 0
 
 
 np.random.seed(args.seed)
