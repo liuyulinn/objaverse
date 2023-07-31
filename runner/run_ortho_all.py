@@ -80,7 +80,7 @@ for i in range(args.start, args.end):
             continue
 
     try:
-        ret = subprocess.call(cmds[i], stderr=subprocess.STDOUT, timeout=120)
+        ret = subprocess.call(cmds[i], stderr=subprocess.STDOUT, timeout=120, shell=True)
         # ret = os.system(cmds[i])
         if ret == 2:
             print("KeyboardInterrupt", flush=True)
@@ -92,4 +92,4 @@ for i in range(args.start, args.end):
         print(f'rendering {i} / {len(cmds)} {uids[i]} to {saves[i]}/views_{uids[i]}', flush=True) #>> /yulin/loglog.tx')
     except Exception as exc:
         print(uids[i], repr(exc), flush=True)
-        os.system("echo 'fail to render {i}' > /yulin/objaverse.log".format(i=uids[i]))
+        os.system("echo '{i}' >> /yulin/objaverse.log".format(i=uids[i]))
