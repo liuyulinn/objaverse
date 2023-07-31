@@ -75,25 +75,21 @@ if args.end == 0:
     args.end = len(cmds)
 for i in range(args.start, args.end):
     if args.omit:
-    #print(f'rendering {i} / {len(cmds)} images!, {cmds[i]}')
         if os.path.exists(f'{saves[i]}/views_{uids[i].split(".")[0]}.zip'):
-            os.system(f'echo already rendered {i} / {len(cmds)}')
-            os.system(f'echo fail to render {i} ') #>> /yulin/log_already.txt')
+            print(f'already rendered {i} / {len(cmds)}', flush=True)
             continue
 
     try:
-        ret = os.system(cmds[i])
+        ret = subprocess.call(cmds[i], stderr=subprocess.STDOUT, timeout=120)
+        # ret = os.system(cmds[i])
         if ret == 2:
-            print("KeyboardInterrupt")
+            print("KeyboardInterrupt", flush=True)
             break
         os.makedirs(saves[i], exist_ok=True)
         dispatch_dump(os.path.join(local_saves[i], f'views_{uids[i].split(".")[0]}'), os.path.join(saves[i], f'views_{uids[i].split(".")[0]}.zip'))
         # elif ret != 0:
         #     print("Non-zero return", ret)
-        print(f'rendering {i} / {len(cmds)} {uids[i]} to {saves[i]}/views_{uids[i]}') #>> /yulin/loglog.tx')
-    except Exception: 
-        info=sys.exc_info() 
-        print(info[0],":",info[1] )
-
-        os.system("echo 'fail to render {i}' > /yulin/objaverse.log".format(i))
-
+        print(f'rendering {i} / {len(cmds)} {uids[i]} to {saves[i]}/views_{uids[i]}', flush=True) #>> /yulin/loglog.tx')
+    except Exception as exc:
+        print(uids[i], repr(exc), flush=True)
+        os.system("echo 'fail to render {i}' > /yulin/objaverse.log".format(i=uids[i]))
