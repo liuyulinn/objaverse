@@ -113,9 +113,9 @@ bbox_8x3 = obj.get_bound_box()
 # print(bbox_8x3)
 # size = max(np.max(bbox_8x3, 0) - np.min(bbox_8x3, 0))
 # print(bbox_8x3)
-print(np.max(bbox_8x3, 0))
-print(np.min(bbox_8x3, 0))
-print(np.max(bbox_8x3, 0) - np.min(bbox_8x3, 0))
+# print(np.max(bbox_8x3, 0))
+# print(np.min(bbox_8x3, 0))
+# print(np.max(bbox_8x3, 0) - np.min(bbox_8x3, 0))
 size = max(np.max(bbox_8x3, 0) - np.min(bbox_8x3, 0))
 scale_factor = args.scale / size
 for obj_ in scene_root_objects():
@@ -126,13 +126,13 @@ bpy.context.view_layer.update()
 # obj.blender_obj.scale = np.array([scale_factor] * 3)
 
 offset = -(np.max(bbox_8x3, 0) + np.min(bbox_8x3, 0)) / 2
-print(offset)
+# print(offset)
 for obj_ in scene_root_objects():
     obj_.matrix_world.translation += Vector(offset)
 bpy.ops.object.select_all(action="DESELECT")
 
 bbox_8x3 = obj.get_bound_box()
-print(bbox_8x3)
+# print(bbox_8x3)
 
 # NOTE(jigu): Following `bproc.loader.load_shapenet`
 # removes the x axis rotation found in all ShapeNet objects, this is caused by importing .obj files
@@ -180,7 +180,7 @@ for i in range(args.num_views):
     z = np.sin(elevation)
     location = np.array([x, y, z]) * args.radius
     
-    print(location)
+    # print(location)
 
     # Compute rotation based on vector going from location towards poi
     rotation_matrix = bproc.camera.rotation_from_forward_vec(poi - location)
